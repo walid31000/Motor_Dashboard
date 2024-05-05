@@ -52,7 +52,9 @@ void main(void)
 
 	PORT_voidIint();
 	CLCD_voidInit ();
-	Hamoksha();
+	Hamoksha();//show first animation on LCD using this function
+
+	/*show Motor menu on LCD*/
 	CLCD_u8SendStringAtPos(0u,0u,"DC MOTOR ---->1");
 	CLCD_u8SendStringAtPos(0u,1u,"STEPER MOTOR->2");
 
@@ -104,7 +106,7 @@ void main(void)
 							CLCD_u8SendStringAtPos(0u,1u,"Thanks");
 
 							Motor_voidStop(&DC_Motor);
-							Hamoksha_Reverse();
+							Hamoksha_Reverse();//animation in reverse
 
 						}
 
