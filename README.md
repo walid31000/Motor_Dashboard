@@ -1,6 +1,6 @@
-AVR Project :Motor Dashboard
+<h1>AVR Project :Motor Dashboard</h1>
 Introduction: The objective of this project is to develop a motor dashboard capable of enabling users to control both a DC motor and a stepper motor. Users will have the ability to manage the rotation direction of the DC motor, and for the stepper motor, they can control both the rotation direction and the rotation angle.
-Hardware Requirements
+<h2>Hardware Requirements </h2>
 To implement this project, you will need the following hardware components:
 
 AVR microcontroller (ATmega32)
@@ -10,7 +10,7 @@ DC ,Stepper  Motors to be controlled
 Keypad for entering credentials
 Display module (LCD) for displaying the dashboard
 
-Software Requirements
+<h3>Software Requirements</h3>
 The following software tools are required for developing and programming the AVR microcontroller:
 
 AVR development environment (Eclipse)
@@ -18,7 +18,7 @@ Appropriate AVR programming language ( C programming language)
 
 
 
-
+<a href= "https://drive.google.com/drive/folders/1-1eZUT2UKMuMEmf_uYxAbNXSlpY1ka50">click here to see the video of the hardware running</a>
 
 
 
